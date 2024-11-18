@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images:{
+    domains: ['portfolio-chi-steel-86.vercel.app']
+  }
 };
 
 export default nextConfig;
